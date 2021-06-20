@@ -3,80 +3,60 @@
 
 <head>
   <meta charset="utf-8">
-  <title>😎 Paulo's Personal Site</title>
+  <title>😎 Paulo Rodriguez</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="favicon.ico">
 </head>
 
 <body>
-  <table cellspacing="20px">
-    <tr>
-      <td><img src="images/profile.png" alt="paulo-profile"></td>
-      <td>
-        <h1>Paulo Cesar Rodriguez Rodriguez</h1>
-        <p><em><strong>Computer Science</strong> Undergraduate.</em></p>
-        <p>I'm a passionte of web and mobile development, I have two carrers and I ❤️ dogs, movies and beer.</p>
-      </td>
-    </tr>
-  </table>
-  <hr />
-  <h3>Education</h3>
-  <ul>
-    <li>Computer Science</li>
-    <li>PHP Web Developer</li>
-    <li>Flutter Developer</li>
-    <li>Learning how to be a Javascript Developer</li>
-  </ul>
-  <hr />
-  <h3>Work Experience</h3>
-  <table cellspacing="10">
-    <thead>
-      <tr>
-        <th>Year</th>
-        <th>Work</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>2015-2018</td>
-        <td>System Analist - Centro Cultural Peruano Norteameticano</td>
-      </tr>
-      <tr>
-        <td>2018 - Today</td>
-        <td>Freelancer</td>
-      </tr>
-    </tbody>
-  </table>
-  <hr />
-  <h3>Skills</h3>
-  <table cellspacing="10">
-    <tr>
-      <td>
-        <table>
-          <tr>
-            <td>HTML</td>
-            <td>🎇🎇🎇</td>
-          </tr>
-          <tr>
-            <td>PHP</td>
-            <td>🎇🎇🎇🎇🎇</td>
-          </tr>
-        </table>
-      </td>
-      <td>
-        <table>
-          <tr>
-            <td>JS</td>
-            <td>🎇🎇🎇</td>
-          </tr>
-          <tr>
-            <td>Flutter</td>
-            <td>🎇🎇🎇🎇🎇</td>
-          </tr>
-        </table>
-      </td>
-    </tr>
-  </table>
-  <h3><a href="hobbies.html">My Hobbies</a></h3>
-  <h3><a href="contact_me.html">Contect Me</a></h3>
+
+  <div class="top-container">
+    <img class="top-cloud" src="images/cloud.png" alt="cloud">
+    <h1>I'm Paulo Rodriguez</h1>
+    <h2 class="description-text">a <span class="pro">pro</span>grammer</h2>
+    <img class="bottom-cloud" src="images/cloud.png" alt="cloud">
+    <img class="mountain" src="images/mountain.png" alt="mountain">
+  </div>
+
+  <div class="middle-container">
+    <div class="profile">
+      <img src="images/profile.png" alt="paulo">
+      <h2>Hello.</h2>
+      <p class="intro">I'm Paulo. I love develop new mobile apps (or webapps) , pizza 🍕 and beer.</p>
+    </div>
+    <hr>
+    <div class="skills">
+      <h2>My Skills.</h2>
+      <div class="skill-row">
+        <img class="code-image" src="images/computer.png" alt="full stack developer">
+        <h3>Full Stack Web Developer</h3>
+        <p class="code-text">I'm a full stack developer specialize in php and laravel, but now I'm learning Javascript, NodeJS and ReactJS.</p>
+      </div>
+      <div class="skill-row">
+        <img class="mobile-image" src="images/smartphone.png" alt="modile developer">
+        <h3>Mobile Developer</h3>
+        <p class="mobile-text">I love using flutter to develop cross-platform mobile apps, I like firebase and I'm a enthusiastic of serveless apps</p>
+      </div>
+    </div>
+    <hr>
+    <div class="contact-me">
+      <h2 class="contact-title">Get In Touch</h2>
+      <h3 class="contact-subtitle">Do you have some interestin project?</h3>
+      <p class="contact-description">Contact me, it will a pleasure to help you in any web app or mobile app you have in mind 😊.</p>
+      <a class="btn" href="mailto:paulo_crr@hotmail.com">CONTACT ME</a>
+    </div>
+  </div>
+
+
+  <div class="bottom-container">
+    <a target="_blank" class="footer-link" href="https://www.linkedin.com/in/paulo-cesar-r-01a2b367/">LinkedIn</a>
+    <a target="_blank" class="footer-link" href="https://twitter.com/paulo_crr">Twitter</a>
+    <a target="_blank" class="footer-link" href="https://paulocrr.github.io/cv/">Website</a>
+    <p class="copy-right">© 2021 Paulo Rodriguez.</p>
+  </div>
+
 </body>
 
 </html>
